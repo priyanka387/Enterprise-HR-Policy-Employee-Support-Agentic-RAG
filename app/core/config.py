@@ -13,7 +13,7 @@ class Settings(BaseSettings):
     pinecone_api_key: str = ""
     pinecone_index_name: str = "fde-hr-policy-rag"
     pinecone_namespace: str = "company-hr-kb"
-    embedding_model: str = "text-embedding-3-small"
+    embedding_model: str = "Qwen/Qwen3-Embedding-0.6B"
     gemini_model: str = "gemini-2.5-flash"
     top_k: int = 4
     max_retries: int = 1

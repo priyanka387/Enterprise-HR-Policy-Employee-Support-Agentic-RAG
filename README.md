@@ -194,13 +194,13 @@ pip install -r requirements.txt
 Copy `.env.example` to `.env` and add your keys.
 
 ```env
-OPENAI_API_KEY=your_openai_api_key_here
+GEMINI_API_KEY=your_gemini_api_key_here
 TAVILY_API_KEY=your_tavily_api_key_here
 PINECONE_API_KEY=your_pinecone_api_key_here
 PINECONE_INDEX_NAME=fde-hr-policy-rag
 PINECONE_NAMESPACE=company-hr-kb
-OPENAI_MODEL=gpt-4o-mini
-EMBEDDING_MODEL=text-embedding-3-small
+GEMINI_MODEL= gemini-2.5-flash
+EMBEDDING_MODEL= Qwen/Qwen3-Embedding-0.6B
 ADMIN_API_KEY=change-me-in-production
 APP_ENV=development
 ```
